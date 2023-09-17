@@ -1,0 +1,36 @@
+#Tardis Smile Block Mod 1.19 TOML
+
+modLoader="javafml" #mandatory
+loaderVersion="[41,)" #mandatory
+license="MIT"
+
+[[mods]] #mandatory
+
+modId="smileblock" #mandatory
+version="0.0.0.5" #mandatory
+displayName="Tardis Smile Block Mod" #mandatory
+logoFile="BlueBox.png" #optional
+credits="Mom and KD got me into this." #optional
+authors="Dave does not do pretty" #optional
+
+# The description text for the mod (multi line!) (#mandatory)
+description='''
+This should allow the creation and placement of a smiley block
+in Forge 1.19.
+'''
+
+[[dependencies.smileblock]] #optional
+
+    modId="forge" #mandatory
+    mandatory=true #mandatory
+    versionRange="[41,)" #mandatory
+    ordering="NONE"
+    side="BOTH"
+
+# Here's another dependency
+[[dependencies.smileblock]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.19,1.20)"
+    ordering="NONE"
+    side="BOTH"
