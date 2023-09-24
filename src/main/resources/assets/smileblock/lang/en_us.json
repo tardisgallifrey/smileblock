@@ -3,5 +3,6 @@
   "itemGroup.tardismod2": "Tardis Mod2 Items",
 
   "block.smileblock.smileblock": "Smiley Block",
+  "block.smileblock.sad_block": "Sad Block",
   "__comment__": "lang json loads important names"
 }
