@@ -1,8 +1,12 @@
 # Tardisgallifrey's base Forge/Minecraft Mod
+## Blocks and Block Items
 
 <p>This mod contains the minimal that is necessary to create 
 a 1.19 Minecraft mod from Forge.  The mod will create and place a smiley 
 block from the Luke Graham tutorial for 1.19.2.</p>
+
+<p>It will also create and place a block called `sad_block` that uses 
+effects such as `plantable` and `explosion` from Vanilla Blocks.</p>
 
 <p>This mod is in accordance with Mojang, Microsoft, and Forge 
 licensing as well as my own use of the MIT license.</p>
